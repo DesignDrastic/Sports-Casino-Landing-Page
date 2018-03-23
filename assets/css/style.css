@@ -1,0 +1,362 @@
+/*
+    Crafted and Designed By DesignDrastic
+    Author: DesignDrastic
+    Author URL: http://designdrastic.com
+    License URL: http://designdrastic.com/license
+*/
+
+.m-0{
+	margin: 0;
+}
+.p-0{
+	padding: 0;
+}
+.w-120 {
+	width: 120px;
+}
+.theme-logo {
+	font-family: 'Ubuntu', sans-serif;
+	color: #333333;
+	padding: 10px 0;
+	width: 250px;
+}
+.navbar.theme-navbar {
+	background: #333;
+	border: none;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+.navbar.theme-navbar .navbar-collapse{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.theme-navbar .nav{}
+.theme-navbar .nav li{}
+.theme-navbar .theme-nav.nav li a{
+	color: white;
+	font-family: 'PT Sans', sans-serif;
+	transition: 0.3s;
+	margin: 0 2px;
+}
+.theme-navbar .theme-nav.nav li a:hover, .theme-nav-active{
+	background: darkred;
+	color: white;
+	box-shadow: 0 0 5px 3px #990000 inset;
+}
+.hero{
+	padding: 80px 0;
+}
+.head-img{
+	position: relative;
+	display: inline-block;
+	background: url(../images/hero_bg.jpg);
+	background-position: center center; 
+	background-size: cover;
+}
+.hero-title {
+	position: relative;
+	display: inline-block;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: lighter;
+	line-height: 50px;
+	color: #333333;
+	text-shadow: 0px 0px 8px rgba(251,251,251,0.9);
+}
+.hero-title span {
+	color: darkred;
+}
+.theme-title {
+	padding: 0;
+	margin: 0;
+	font-family: 'PT Sans', sans-serif;
+}
+.underline {
+	border-bottom: 1px solid #999;
+	padding-bottom: 5px;
+}
+.clr-dr {
+	color: darkred;
+}
+.theme-p.clr-w, .clr-w {
+	color: white;
+}
+.theme-p {
+	font-family: 'PT Sans', sans-serif;
+	color: #666;
+	font-size: 15px;
+	padding: 10px;
+}
+.font-pt {
+	font-family: 'PT Sans', sans-serif;
+}
+.theme-btn{
+	text-decoration: none;
+	background: darkred;
+	padding: 6px 20px;
+	font-family: 'PT Sans', sans-serif;
+	border: 2px solid transparent;
+	border-radius: 3px;
+	color: white;
+	transition: 0.3s;
+}
+.theme-btn:hover {
+	text-decoration: none;
+	border-color: darkred;
+	color: darkred;
+	background: white;
+}
+.theme-btn:focus{
+	text-decoration: none;
+	border-color: darkred;
+	color: darkred;
+	background: white;
+}
+.signup-btn{
+	background: darkred;
+	font-family: 'PT Sans', sans-serif;
+	border: 2px solid transparent;
+	border-radius: 3px;
+	color: white;
+	transition: 0.3s;	
+}
+.signup-btn:hover{
+	text-decoration: none;
+	color: white;
+	border-color: darkred;
+	color: darkred;
+	background: white;
+}
+.box {
+	position: relative;
+	display: inline-block;
+	padding: 15px;
+	border: none;		
+	font-family: 'PT Sans', sans-serif;
+	border-radius: 3px;
+	background: darkred;
+	color: white;
+}
+
+.box-white {
+	position: relative;
+	display: inline-block;
+  	width: 100%;
+  	min-height: 350px;
+  	/* padding: 15px; */
+  	border-radius: 3px;
+  	box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
+	background: white;
+  	border: none;
+	-webkit-transition: all 280ms cubic-bezier(.4,0,.2,1);
+	transition: all 280ms cubic-bezier(.4,0,.2,1);
+	border: 1px solid #CCC;
+}
+.box-white:hover {
+	box-shadow: 0 10px 20px rgba(0,0,0,.19),0 6px 6px rgba(0,0,0,.23);
+}
+
+.box-title{
+	padding: 0;
+	margin: 0;
+	padding: 10px;
+	background: #F5F7F9;
+	border-bottom: 1px solid #CCC;
+	font-family: 'PT Sans', sans-serif;	
+}
+
+.title {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: lighter;
+}
+.theme-list li{
+	font-family: 'PT Sans', sans-serif;
+	line-height: 30px;
+	font-size: 15px;
+	color: #666;
+}
+.theme-refer {
+	padding: 20px;
+	color: white;
+	position: relative;
+}
+.theme-refer-bg {
+	box-shadow: 0 0 7px 0 #333 inset;
+	background: url(../images/bg.jpg);
+	position: absolute;
+	background-size: 100%;
+	background-attachment: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+	filter:  blur(1px) brightness(50%);
+	-webkit-filter: blur(1px) brightness(50%);
+}
+.theme-refer .title {
+	text-shadow: 0 0 2px #333;
+}
+.theme-refer .title span{
+	font-weight: bold;
+	border-bottom: 1px solid white;
+	padding-bottom: 5px;
+}
+.theme-list.clr-w li {
+	color: white;
+}
+.img-zoom {
+	transition: 0.7s;
+}
+.img-zoom:hover {
+	transform: scale(1.05);
+}
+
+.theme-input-group input{
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+.theme-input {
+	padding: 7px 12px;
+	width: 100%;
+	border: none;
+	color: #333;
+	outline: none;
+}
+.theme-input:focus {
+	box-shadow: 0 0 4px 1px #CCC inset;
+}
+.input-group-btn .btn{
+	outline: none !important;
+}
+.theme-bg {
+	background: #F5F7F9;
+	padding: 15px;
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	font-family: 'PT Sans', sans-serif;
+	outline: none;
+}
+.theme-link {
+	color: darkred;
+	font-family: 'PT Sans', sans-serif;
+}
+.footer {
+	color: white;
+	background-color: rgb(51, 51, 51);
+	padding: 10px;
+	font-family: 'PT Sans', sans-serif;s
+}
+#plan:focus{
+	outline: none;
+}
+/***** Faq Div******/
+.theme-bg-faq {
+	background: #F5F7F9;
+	padding: 15px;
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	font-family: 'PT Sans', sans-serif;
+	outline: none;
+}
+#faq:focus{
+	outline: none;
+}
+.faq-title{
+	margin-bottom: 20px !important;
+}
+.panel-title{
+	cursor: pointer;
+	font-family: 'Ubuntu', sans-serif;	
+}
+.panel-title:hover{
+	color: darkred;
+}
+.panel-body{
+	font-family: 'PT Sans', sans-serif;		
+}
+/******Contact us******/
+#contact{
+	outline: none;
+}
+.contact-title{
+	text-align: center;
+	margin-bottom: 20px !important;
+}
+.contact-input{
+	font-family: 'PT Sans', sans-serif;		
+	border-radius: 0;
+}
+.contact-input:focus{
+	border: 1px solid darkred;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(139,0,0,.6);
+}
+.address-title{
+	text-align: center;
+	margin-bottom: 20px !important;	
+}
+.address-body{
+	text-align: center;
+	font-size: 15px;
+	font-family: 'PT Sans', sans-serif;		
+}
+.social-icon{
+	color: #333333;
+}
+.social-icon-div{
+	text-align: center !important;
+}
+.social-title{
+	font-family: 'Ubuntu', sans-serif;	
+	text-align: center;
+}
+.social-icon i{
+	margin: 0;
+	font-size: 30px;
+	padding: 10px;
+}
+.social-icon .fa-facebook-official:hover{
+	transition: 300ms;
+	color: #4867AA;
+}
+.social-icon .fa-twitter-square:hover{
+	color: #1DA1F2;
+	transition: 300ms;
+}
+.social-icon .fa-instagram:hover{
+	color: #fb3958;
+	transition: 300ms;
+}
+/* Media queries */
+@media(max-width: 720px) {
+	.box-white{
+		margin-top: 10px;
+	}
+	.theme-bg {
+		padding: 0;
+	}
+	.theme-bg .container{
+		padding: 0;
+	}
+	.title {
+		font-size: 23px;
+	}
+	.img-zoom {
+		width: 100%;
+	}
+	.top-bar {
+		margin-bottom: 14px;
+	}
+	.underline {
+		border-bottom: none;
+	}
+	.title span {
+		border-bottom: none;
+	}
+	.mobile-vid {
+		height: 250px;
+	}
+	.theme-bg-faq {
+		padding: 0 10px;
+	}
+}
